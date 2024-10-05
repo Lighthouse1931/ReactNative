@@ -4,11 +4,13 @@ import { NavigationContainer } from '@react-navigation/native'
 import StackNavigator from '../navigation/StackNavigator'
 import TabNavigator from '../navigation/TabNavigator'
 import DrawerNavigator from '../navigation/DrawerNavigator'
+import TwoFactorAuthView from '../components/TwoFactorAuthView'
 
 const index = () => {
   return (
-      <DrawerNavigator></DrawerNavigator>
+      <TwoFactorAuthView></TwoFactorAuthView>
   )
 }
+
 
 export default index
