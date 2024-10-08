@@ -6,9 +6,7 @@ import FlexBoxDemo from '../components/FlexBoxDemo'
 
 const index = () => {
   return (
-    <FlexBoxDemo></FlexBoxDemo>
+    <FriendListScreen></FriendListScreen>
   )
 }
-
-
 export default index
